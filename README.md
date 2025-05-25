@@ -14,7 +14,8 @@ This application visualizes net worth trends across different income brackets in
 
 ## Screenshots
 
-![App Screenshot](Wealth.png)
+![App Screenshot]("C:\Users\Baysan\Desktop\WhatsApp Image 2025-05-25 at 10.12.21.jpeg" "C:\Users\Baysan\Desktop\WhatsApp Image 2025-05-25 at 10.12.12.jpeg"
+)
 
 
 
