@@ -1,10 +1,11 @@
-# Household Wealth Viewer (WPF)
+# Household Wealth Viewer 
 
 A modern desktop application built with WPF (Windows Presentation Foundation) that displays household wealth changes over time using interactive data visualization.
 
 ## Overview
 
-This application visualizes net worth trends across different income brackets in the United States, covering the years 1990 to 2023. It uses a stacked area chart to illustrate how wealth is distributed and how it shifts across groups over time.
+This application visualizes net worth trends across different income brackets in the United States, covering the years 1989 to 2016
+. It uses a stacked area chart to illustrate how wealth is distributed and how it shifts across groups over time.
 
 ## Key Features
 
@@ -14,12 +15,7 @@ This application visualizes net worth trends across different income brackets in
 - 🧾 **CSV Data Integration** to load real wealth data from a file.
 - 💡 Clean, user-friendly interface built with WPF and Syncfusion components.
 
-## Technologies Used
 
-- **.NET / C#**
-- **WPF (XAML)**
-- **Syncfusion SfChart**
-- **MVVM Pattern (optional depending on your structure)**
 
 ## Screenshots
 
@@ -38,12 +34,3 @@ Make sure the data file (`wealthdata.csv`) is in the correct directory.
 
 ---
 
-## Author
-
-Created and customized by [Your Name].
-
----
-
-## License
-
-This project is for educational and non-commercial use only.
