@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <!-- NuGet package dependencies -->
+  <ItemGroup>
+    <PackageReference Include="Syncfusion.SfChart.WPF" Version="*" />
+  </ItemGroup>
+
+  <!-- Resource files for runtime -->
+  <ItemGroup>
+    <!-- CSV data file copied to output -->
+    <EmbeddedResource Include="dfanetworthlevels.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+
+    <!-- PNG image used in XAML UI -->
+    <Resource Include="Wealth.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+</Project>
