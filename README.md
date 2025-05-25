@@ -14,7 +14,7 @@ This application visualizes net worth trends across different income brackets in
 
 ## Screenshots
 
-![App Screenshot](https://github.com/Myrzakanova/householdtracker/blob/main/photo1.jpeg)
+![App Screenshot](https://github.com/Myrzakanova/householdtracker/blob/main/photo1.jpeg https://github.com/Myrzakanova/householdtracker/blob/main/photo2.jpeg)
 
 
 
