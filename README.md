@@ -14,8 +14,7 @@ This application visualizes net worth trends across different income brackets in
 
 ## Screenshots
 
-![App Screenshot]("C:\Users\Baysan\Desktop\WhatsApp Image 2025-05-25 at 10.12.21.jpeg" "C:\Users\Baysan\Desktop\WhatsApp Image 2025-05-25 at 10.12.12.jpeg"
-)
+![App Screenshot](https://github.com/Myrzakanova/householdtracker/blob/main/photo1.jpeg)
 
 
 
