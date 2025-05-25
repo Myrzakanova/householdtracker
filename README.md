@@ -1,29 +1,49 @@
-# Wealth Distribution Chart (WPF)
+# Household Wealth Viewer (WPF)
 
-This WPF sample visualizes wealth distribution in America from 1990 to 2023 using a Stacked Area Chart built with Syncfusion SfChart.
+A modern desktop application built with WPF (Windows Presentation Foundation) that displays household wealth changes over time using interactive data visualization.
 
-## Features
+## Overview
 
-- Stacked Area Chart to display cumulative values by income groups over time.
-- Customized appearance with styled axis labels, borders, background, and stroke settings.
-- Text annotations to highlight specific points in the chart.
+This application visualizes net worth trends across different income brackets in the United States, covering the years 1990 to 2023. It uses a stacked area chart to illustrate how wealth is distributed and how it shifts across groups over time.
 
-For details, see our blog post "Wealth Distribution in America from 1990 to 2023".
-![image](https://github.com/user-attachments/assets/10fd211a-50f3-4fe8-97e1-fc4e838385b6)
+## Key Features
 
-✅ Key Enhancements:
--More readable label formatting for trillions ($12T instead of $12.0T).
+- 📊 **Stacked Area Chart** for a clear visual breakdown of data across income levels.
+- 🎯 **Custom Annotations** to mark significant data points.
+- 🎨 **Themed Styling** with personalized colors, fonts, and axis customization.
+- 🧾 **CSV Data Integration** to load real wealth data from a file.
+- 💡 Clean, user-friendly interface built with WPF and Syncfusion components.
 
--Hex-to-Brush support in the ValueConverter for better UI binding compatibility.
+## Technologies Used
 
--More resilient color fallback in case of unmatched labels.
+- **.NET / C#**
+- **WPF (XAML)**
+- **Syncfusion SfChart**
+- **MVVM Pattern (optional depending on your structure)**
 
-✅I've modernized and stylized your XAML window:
+## Screenshots
 
-Updated the background and color scheme to a sleek dark theme.
+![App Screenshot](Wealth.png)
 
-Improved font styles and alignment.
+## Getting Started
 
-Adjusted margins and paddings for better visual spacing.
+To run the project:
 
-Enhanced annotation styling and color palette consistency.
+1. Clone or download the repository.
+2. Open the `.csproj` file in Visual Studio.
+3. Restore NuGet packages (Syncfusion libraries).
+4. Run the app.
+
+Make sure the data file (`wealthdata.csv`) is in the correct directory.
+
+---
+
+## Author
+
+Created and customized by [Your Name].
+
+---
+
+## License
+
+This project is for educational and non-commercial use only.
